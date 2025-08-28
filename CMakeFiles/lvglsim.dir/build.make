@@ -167,22 +167,61 @@ CMakeFiles/lvglsim.dir/src/config.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvglsim.dir/src/config.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workdir/src/config.c -o CMakeFiles/lvglsim.dir/src/config.c.s
 
-CMakeFiles/lvglsim.dir/src/calendar_icon_light.c.o: CMakeFiles/lvglsim.dir/flags.make
-CMakeFiles/lvglsim.dir/src/calendar_icon_light.c.o: ../src/calendar_icon_light.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workdir/build_arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/lvglsim.dir/src/calendar_icon_light.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvglsim.dir/src/calendar_icon_light.c.o -c /workdir/src/calendar_icon_light.c
+CMakeFiles/lvglsim.dir/src/calendar_icon.c.o: CMakeFiles/lvglsim.dir/flags.make
+CMakeFiles/lvglsim.dir/src/calendar_icon.c.o: ../src/calendar_icon.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workdir/build_arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/lvglsim.dir/src/calendar_icon.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvglsim.dir/src/calendar_icon.c.o -c /workdir/src/calendar_icon.c
 
-CMakeFiles/lvglsim.dir/src/calendar_icon_light.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvglsim.dir/src/calendar_icon_light.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workdir/src/calendar_icon_light.c > CMakeFiles/lvglsim.dir/src/calendar_icon_light.c.i
+CMakeFiles/lvglsim.dir/src/calendar_icon.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvglsim.dir/src/calendar_icon.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workdir/src/calendar_icon.c > CMakeFiles/lvglsim.dir/src/calendar_icon.c.i
 
-CMakeFiles/lvglsim.dir/src/calendar_icon_light.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvglsim.dir/src/calendar_icon_light.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workdir/src/calendar_icon_light.c -o CMakeFiles/lvglsim.dir/src/calendar_icon_light.c.s
+CMakeFiles/lvglsim.dir/src/calendar_icon.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvglsim.dir/src/calendar_icon.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workdir/src/calendar_icon.c -o CMakeFiles/lvglsim.dir/src/calendar_icon.c.s
+
+CMakeFiles/lvglsim.dir/src/theme_icon_dark.c.o: CMakeFiles/lvglsim.dir/flags.make
+CMakeFiles/lvglsim.dir/src/theme_icon_dark.c.o: ../src/theme_icon_dark.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workdir/build_arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/lvglsim.dir/src/theme_icon_dark.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvglsim.dir/src/theme_icon_dark.c.o -c /workdir/src/theme_icon_dark.c
+
+CMakeFiles/lvglsim.dir/src/theme_icon_dark.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvglsim.dir/src/theme_icon_dark.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workdir/src/theme_icon_dark.c > CMakeFiles/lvglsim.dir/src/theme_icon_dark.c.i
+
+CMakeFiles/lvglsim.dir/src/theme_icon_dark.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvglsim.dir/src/theme_icon_dark.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workdir/src/theme_icon_dark.c -o CMakeFiles/lvglsim.dir/src/theme_icon_dark.c.s
+
+CMakeFiles/lvglsim.dir/src/theme_icon_light.c.o: CMakeFiles/lvglsim.dir/flags.make
+CMakeFiles/lvglsim.dir/src/theme_icon_light.c.o: ../src/theme_icon_light.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workdir/build_arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/lvglsim.dir/src/theme_icon_light.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvglsim.dir/src/theme_icon_light.c.o -c /workdir/src/theme_icon_light.c
+
+CMakeFiles/lvglsim.dir/src/theme_icon_light.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvglsim.dir/src/theme_icon_light.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workdir/src/theme_icon_light.c > CMakeFiles/lvglsim.dir/src/theme_icon_light.c.i
+
+CMakeFiles/lvglsim.dir/src/theme_icon_light.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvglsim.dir/src/theme_icon_light.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workdir/src/theme_icon_light.c -o CMakeFiles/lvglsim.dir/src/theme_icon_light.c.s
+
+CMakeFiles/lvglsim.dir/src/lv_font_my_montserrat_14.c.o: CMakeFiles/lvglsim.dir/flags.make
+CMakeFiles/lvglsim.dir/src/lv_font_my_montserrat_14.c.o: ../src/lv_font_my_montserrat_14.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workdir/build_arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/lvglsim.dir/src/lv_font_my_montserrat_14.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvglsim.dir/src/lv_font_my_montserrat_14.c.o -c /workdir/src/lv_font_my_montserrat_14.c
+
+CMakeFiles/lvglsim.dir/src/lv_font_my_montserrat_14.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvglsim.dir/src/lv_font_my_montserrat_14.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workdir/src/lv_font_my_montserrat_14.c > CMakeFiles/lvglsim.dir/src/lv_font_my_montserrat_14.c.i
+
+CMakeFiles/lvglsim.dir/src/lv_font_my_montserrat_14.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvglsim.dir/src/lv_font_my_montserrat_14.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workdir/src/lv_font_my_montserrat_14.c -o CMakeFiles/lvglsim.dir/src/lv_font_my_montserrat_14.c.s
 
 CMakeFiles/lvglsim.dir/src/lv_font_my_montserrat_20.c.o: CMakeFiles/lvglsim.dir/flags.make
 CMakeFiles/lvglsim.dir/src/lv_font_my_montserrat_20.c.o: ../src/lv_font_my_montserrat_20.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workdir/build_arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/lvglsim.dir/src/lv_font_my_montserrat_20.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workdir/build_arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/lvglsim.dir/src/lv_font_my_montserrat_20.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvglsim.dir/src/lv_font_my_montserrat_20.c.o -c /workdir/src/lv_font_my_montserrat_20.c
 
 CMakeFiles/lvglsim.dir/src/lv_font_my_montserrat_20.c.i: cmake_force
@@ -195,7 +234,7 @@ CMakeFiles/lvglsim.dir/src/lv_font_my_montserrat_20.c.s: cmake_force
 
 CMakeFiles/lvglsim.dir/src/lib/driver_backends.c.o: CMakeFiles/lvglsim.dir/flags.make
 CMakeFiles/lvglsim.dir/src/lib/driver_backends.c.o: ../src/lib/driver_backends.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workdir/build_arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/lvglsim.dir/src/lib/driver_backends.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workdir/build_arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/lvglsim.dir/src/lib/driver_backends.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvglsim.dir/src/lib/driver_backends.c.o -c /workdir/src/lib/driver_backends.c
 
 CMakeFiles/lvglsim.dir/src/lib/driver_backends.c.i: cmake_force
@@ -208,7 +247,7 @@ CMakeFiles/lvglsim.dir/src/lib/driver_backends.c.s: cmake_force
 
 CMakeFiles/lvglsim.dir/src/lib/mouse_cursor_icon.c.o: CMakeFiles/lvglsim.dir/flags.make
 CMakeFiles/lvglsim.dir/src/lib/mouse_cursor_icon.c.o: ../src/lib/mouse_cursor_icon.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workdir/build_arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/lvglsim.dir/src/lib/mouse_cursor_icon.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workdir/build_arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/lvglsim.dir/src/lib/mouse_cursor_icon.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvglsim.dir/src/lib/mouse_cursor_icon.c.o -c /workdir/src/lib/mouse_cursor_icon.c
 
 CMakeFiles/lvglsim.dir/src/lib/mouse_cursor_icon.c.i: cmake_force
@@ -221,7 +260,7 @@ CMakeFiles/lvglsim.dir/src/lib/mouse_cursor_icon.c.s: cmake_force
 
 CMakeFiles/lvglsim.dir/src/lib/simulator_util.c.o: CMakeFiles/lvglsim.dir/flags.make
 CMakeFiles/lvglsim.dir/src/lib/simulator_util.c.o: ../src/lib/simulator_util.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workdir/build_arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/lvglsim.dir/src/lib/simulator_util.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workdir/build_arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/lvglsim.dir/src/lib/simulator_util.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvglsim.dir/src/lib/simulator_util.c.o -c /workdir/src/lib/simulator_util.c
 
 CMakeFiles/lvglsim.dir/src/lib/simulator_util.c.i: cmake_force
@@ -234,7 +273,7 @@ CMakeFiles/lvglsim.dir/src/lib/simulator_util.c.s: cmake_force
 
 CMakeFiles/lvglsim.dir/src/lib/indev_backends/evdev.c.o: CMakeFiles/lvglsim.dir/flags.make
 CMakeFiles/lvglsim.dir/src/lib/indev_backends/evdev.c.o: ../src/lib/indev_backends/evdev.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workdir/build_arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/lvglsim.dir/src/lib/indev_backends/evdev.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workdir/build_arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/lvglsim.dir/src/lib/indev_backends/evdev.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvglsim.dir/src/lib/indev_backends/evdev.c.o -c /workdir/src/lib/indev_backends/evdev.c
 
 CMakeFiles/lvglsim.dir/src/lib/indev_backends/evdev.c.i: cmake_force
@@ -247,7 +286,7 @@ CMakeFiles/lvglsim.dir/src/lib/indev_backends/evdev.c.s: cmake_force
 
 CMakeFiles/lvglsim.dir/src/lib/display_backends/fbdev.c.o: CMakeFiles/lvglsim.dir/flags.make
 CMakeFiles/lvglsim.dir/src/lib/display_backends/fbdev.c.o: ../src/lib/display_backends/fbdev.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workdir/build_arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/lvglsim.dir/src/lib/display_backends/fbdev.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workdir/build_arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/lvglsim.dir/src/lib/display_backends/fbdev.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvglsim.dir/src/lib/display_backends/fbdev.c.o -c /workdir/src/lib/display_backends/fbdev.c
 
 CMakeFiles/lvglsim.dir/src/lib/display_backends/fbdev.c.i: cmake_force
@@ -267,7 +306,10 @@ lvglsim_OBJECTS = \
 "CMakeFiles/lvglsim.dir/src/schedule_data.c.o" \
 "CMakeFiles/lvglsim.dir/src/api.c.o" \
 "CMakeFiles/lvglsim.dir/src/config.c.o" \
-"CMakeFiles/lvglsim.dir/src/calendar_icon_light.c.o" \
+"CMakeFiles/lvglsim.dir/src/calendar_icon.c.o" \
+"CMakeFiles/lvglsim.dir/src/theme_icon_dark.c.o" \
+"CMakeFiles/lvglsim.dir/src/theme_icon_light.c.o" \
+"CMakeFiles/lvglsim.dir/src/lv_font_my_montserrat_14.c.o" \
 "CMakeFiles/lvglsim.dir/src/lv_font_my_montserrat_20.c.o" \
 "CMakeFiles/lvglsim.dir/src/lib/driver_backends.c.o" \
 "CMakeFiles/lvglsim.dir/src/lib/mouse_cursor_icon.c.o" \
@@ -285,7 +327,10 @@ bin/lvglsim: CMakeFiles/lvglsim.dir/src/schedule_ui.c.o
 bin/lvglsim: CMakeFiles/lvglsim.dir/src/schedule_data.c.o
 bin/lvglsim: CMakeFiles/lvglsim.dir/src/api.c.o
 bin/lvglsim: CMakeFiles/lvglsim.dir/src/config.c.o
-bin/lvglsim: CMakeFiles/lvglsim.dir/src/calendar_icon_light.c.o
+bin/lvglsim: CMakeFiles/lvglsim.dir/src/calendar_icon.c.o
+bin/lvglsim: CMakeFiles/lvglsim.dir/src/theme_icon_dark.c.o
+bin/lvglsim: CMakeFiles/lvglsim.dir/src/theme_icon_light.c.o
+bin/lvglsim: CMakeFiles/lvglsim.dir/src/lv_font_my_montserrat_14.c.o
 bin/lvglsim: CMakeFiles/lvglsim.dir/src/lv_font_my_montserrat_20.c.o
 bin/lvglsim: CMakeFiles/lvglsim.dir/src/lib/driver_backends.c.o
 bin/lvglsim: CMakeFiles/lvglsim.dir/src/lib/mouse_cursor_icon.c.o
@@ -305,7 +350,7 @@ bin/lvglsim: lvgl/lib/liblvgl_examples.a
 bin/lvglsim: lvgl/lib/liblvgl_demos.a
 bin/lvglsim: /usr/lib/arm-linux-gnueabihf/libcurl.so
 bin/lvglsim: CMakeFiles/lvglsim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workdir/build_arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable bin/lvglsim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workdir/build_arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable bin/lvglsim"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lvglsim.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

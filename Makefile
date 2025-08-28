@@ -320,32 +320,32 @@ src/cJSON.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvglsim.dir/build.make CMakeFiles/lvglsim.dir/src/cJSON.c.s
 .PHONY : src/cJSON.c.s
 
-src/calendar_icon_light.o: src/calendar_icon_light.c.o
+src/calendar_icon.o: src/calendar_icon.c.o
 
-.PHONY : src/calendar_icon_light.o
+.PHONY : src/calendar_icon.o
 
 # target to build an object file
-src/calendar_icon_light.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvglsim.dir/build.make CMakeFiles/lvglsim.dir/src/calendar_icon_light.c.o
-.PHONY : src/calendar_icon_light.c.o
+src/calendar_icon.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvglsim.dir/build.make CMakeFiles/lvglsim.dir/src/calendar_icon.c.o
+.PHONY : src/calendar_icon.c.o
 
-src/calendar_icon_light.i: src/calendar_icon_light.c.i
+src/calendar_icon.i: src/calendar_icon.c.i
 
-.PHONY : src/calendar_icon_light.i
+.PHONY : src/calendar_icon.i
 
 # target to preprocess a source file
-src/calendar_icon_light.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvglsim.dir/build.make CMakeFiles/lvglsim.dir/src/calendar_icon_light.c.i
-.PHONY : src/calendar_icon_light.c.i
+src/calendar_icon.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvglsim.dir/build.make CMakeFiles/lvglsim.dir/src/calendar_icon.c.i
+.PHONY : src/calendar_icon.c.i
 
-src/calendar_icon_light.s: src/calendar_icon_light.c.s
+src/calendar_icon.s: src/calendar_icon.c.s
 
-.PHONY : src/calendar_icon_light.s
+.PHONY : src/calendar_icon.s
 
 # target to generate assembly for a file
-src/calendar_icon_light.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvglsim.dir/build.make CMakeFiles/lvglsim.dir/src/calendar_icon_light.c.s
-.PHONY : src/calendar_icon_light.c.s
+src/calendar_icon.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvglsim.dir/build.make CMakeFiles/lvglsim.dir/src/calendar_icon.c.s
+.PHONY : src/calendar_icon.c.s
 
 src/config.o: src/config.c.o
 
@@ -524,6 +524,33 @@ src/lib/simulator_util.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvgl_linux.dir/build.make CMakeFiles/lvgl_linux.dir/src/lib/simulator_util.c.s
 .PHONY : src/lib/simulator_util.c.s
 
+src/lv_font_my_montserrat_14.o: src/lv_font_my_montserrat_14.c.o
+
+.PHONY : src/lv_font_my_montserrat_14.o
+
+# target to build an object file
+src/lv_font_my_montserrat_14.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvglsim.dir/build.make CMakeFiles/lvglsim.dir/src/lv_font_my_montserrat_14.c.o
+.PHONY : src/lv_font_my_montserrat_14.c.o
+
+src/lv_font_my_montserrat_14.i: src/lv_font_my_montserrat_14.c.i
+
+.PHONY : src/lv_font_my_montserrat_14.i
+
+# target to preprocess a source file
+src/lv_font_my_montserrat_14.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvglsim.dir/build.make CMakeFiles/lvglsim.dir/src/lv_font_my_montserrat_14.c.i
+.PHONY : src/lv_font_my_montserrat_14.c.i
+
+src/lv_font_my_montserrat_14.s: src/lv_font_my_montserrat_14.c.s
+
+.PHONY : src/lv_font_my_montserrat_14.s
+
+# target to generate assembly for a file
+src/lv_font_my_montserrat_14.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvglsim.dir/build.make CMakeFiles/lvglsim.dir/src/lv_font_my_montserrat_14.c.s
+.PHONY : src/lv_font_my_montserrat_14.c.s
+
 src/lv_font_my_montserrat_20.o: src/lv_font_my_montserrat_20.c.o
 
 .PHONY : src/lv_font_my_montserrat_20.o
@@ -632,6 +659,60 @@ src/schedule_ui.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvglsim.dir/build.make CMakeFiles/lvglsim.dir/src/schedule_ui.c.s
 .PHONY : src/schedule_ui.c.s
 
+src/theme_icon_dark.o: src/theme_icon_dark.c.o
+
+.PHONY : src/theme_icon_dark.o
+
+# target to build an object file
+src/theme_icon_dark.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvglsim.dir/build.make CMakeFiles/lvglsim.dir/src/theme_icon_dark.c.o
+.PHONY : src/theme_icon_dark.c.o
+
+src/theme_icon_dark.i: src/theme_icon_dark.c.i
+
+.PHONY : src/theme_icon_dark.i
+
+# target to preprocess a source file
+src/theme_icon_dark.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvglsim.dir/build.make CMakeFiles/lvglsim.dir/src/theme_icon_dark.c.i
+.PHONY : src/theme_icon_dark.c.i
+
+src/theme_icon_dark.s: src/theme_icon_dark.c.s
+
+.PHONY : src/theme_icon_dark.s
+
+# target to generate assembly for a file
+src/theme_icon_dark.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvglsim.dir/build.make CMakeFiles/lvglsim.dir/src/theme_icon_dark.c.s
+.PHONY : src/theme_icon_dark.c.s
+
+src/theme_icon_light.o: src/theme_icon_light.c.o
+
+.PHONY : src/theme_icon_light.o
+
+# target to build an object file
+src/theme_icon_light.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvglsim.dir/build.make CMakeFiles/lvglsim.dir/src/theme_icon_light.c.o
+.PHONY : src/theme_icon_light.c.o
+
+src/theme_icon_light.i: src/theme_icon_light.c.i
+
+.PHONY : src/theme_icon_light.i
+
+# target to preprocess a source file
+src/theme_icon_light.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvglsim.dir/build.make CMakeFiles/lvglsim.dir/src/theme_icon_light.c.i
+.PHONY : src/theme_icon_light.c.i
+
+src/theme_icon_light.s: src/theme_icon_light.c.s
+
+.PHONY : src/theme_icon_light.s
+
+# target to generate assembly for a file
+src/theme_icon_light.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lvglsim.dir/build.make CMakeFiles/lvglsim.dir/src/theme_icon_light.c.s
+.PHONY : src/theme_icon_light.c.s
+
 src/time_date_display.o: src/time_date_display.c.o
 
 .PHONY : src/time_date_display.o
@@ -684,9 +765,9 @@ help:
 	@echo "... src/cJSON.o"
 	@echo "... src/cJSON.i"
 	@echo "... src/cJSON.s"
-	@echo "... src/calendar_icon_light.o"
-	@echo "... src/calendar_icon_light.i"
-	@echo "... src/calendar_icon_light.s"
+	@echo "... src/calendar_icon.o"
+	@echo "... src/calendar_icon.i"
+	@echo "... src/calendar_icon.s"
 	@echo "... src/config.o"
 	@echo "... src/config.i"
 	@echo "... src/config.s"
@@ -705,6 +786,9 @@ help:
 	@echo "... src/lib/simulator_util.o"
 	@echo "... src/lib/simulator_util.i"
 	@echo "... src/lib/simulator_util.s"
+	@echo "... src/lv_font_my_montserrat_14.o"
+	@echo "... src/lv_font_my_montserrat_14.i"
+	@echo "... src/lv_font_my_montserrat_14.s"
 	@echo "... src/lv_font_my_montserrat_20.o"
 	@echo "... src/lv_font_my_montserrat_20.i"
 	@echo "... src/lv_font_my_montserrat_20.s"
@@ -717,6 +801,12 @@ help:
 	@echo "... src/schedule_ui.o"
 	@echo "... src/schedule_ui.i"
 	@echo "... src/schedule_ui.s"
+	@echo "... src/theme_icon_dark.o"
+	@echo "... src/theme_icon_dark.i"
+	@echo "... src/theme_icon_dark.s"
+	@echo "... src/theme_icon_light.o"
+	@echo "... src/theme_icon_light.i"
+	@echo "... src/theme_icon_light.s"
 	@echo "... src/time_date_display.o"
 	@echo "... src/time_date_display.i"
 	@echo "... src/time_date_display.s"
