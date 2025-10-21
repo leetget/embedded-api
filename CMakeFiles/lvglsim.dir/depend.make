@@ -2956,6 +2956,7 @@ CMakeFiles/lvglsim.dir/src/schedule_ui.c.o: ../lvgl/src/widgets/tileview/lv_tile
 CMakeFiles/lvglsim.dir/src/schedule_ui.c.o: ../lvgl/src/widgets/tileview/lv_tileview_private.h
 CMakeFiles/lvglsim.dir/src/schedule_ui.c.o: ../lvgl/src/widgets/win/lv_win.h
 CMakeFiles/lvglsim.dir/src/schedule_ui.c.o: ../lvgl/src/widgets/win/lv_win_private.h
+CMakeFiles/lvglsim.dir/src/schedule_ui.c.o: ../src/config.h
 CMakeFiles/lvglsim.dir/src/schedule_ui.c.o: ../src/locale.h
 CMakeFiles/lvglsim.dir/src/schedule_ui.c.o: ../src/schedule_data.h
 CMakeFiles/lvglsim.dir/src/schedule_ui.c.o: ../src/schedule_ui.c

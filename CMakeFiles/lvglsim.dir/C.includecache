@@ -2675,6 +2675,10 @@ string.h
 -
 
 /workdir/src/config.h
+stdbool.h
+-
+stdint.h
+-
 
 /workdir/src/lib/backends.h
 
@@ -2821,11 +2825,11 @@ schedule_data.h
 /workdir/src/schedule_data.h
 locale.h
 /workdir/src/locale.h
+config.h
+/workdir/src/config.h
 lvgl/lvgl.h
 -
 stdio.h
--
-stdbool.h
 -
 time.h
 -
@@ -2833,6 +2837,10 @@ string.h
 -
 
 /workdir/src/schedule_ui.h
+stdbool.h
+-
+stdint.h
+-
 
 /workdir/src/theme_icon_dark.c
 lvgl.h
